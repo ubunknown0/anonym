@@ -516,8 +516,11 @@ case "$1" in
 	status)
 		do_status
 	;;
+	update)
+		do_update
+	;;
 	*)
-		echo "Usage: $0 {start|stop|status}" >&2
+		echo "Usage: sudo $0 {start|stop|status|update}" >&2
 		exit 3
 	;;
 esac

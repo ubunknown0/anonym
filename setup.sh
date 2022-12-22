@@ -25,7 +25,7 @@ esac;
 
 
 # Copying files to needed locations
-echo "[.] Kopierer over ko-anonymous og anonymous ..."
+echo "[.] Kopierer over ko-anonym og anonym ..."
 cp ~/anonym /usr/sbin/anonym
 cp ko-anonym /etc/default/ko-anonym
 echo "[*] Ferdig !"
