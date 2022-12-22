@@ -494,6 +494,18 @@ do_status() {
 	fi
 }
 
+do_update() {
+
+	echo "\n[i] Updating ...\n"
+	git clone https://github.com/ubunknown0/anonym.git
+	cd anonym
+	sh setup.sh
+	cd ..
+	rm -rf kali-anonymous
+	echo "Updated!"
+
+}
+
 case "$1" in
 	start)
 		do_start
