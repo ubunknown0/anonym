@@ -497,7 +497,7 @@ do_status() {
 do_update() {
 
 	echo "\n[i] Updating ...\n"
-	git clone https://github.com/ubunknown0/anonym.git
+	git clone https://github.com/ubunknown0/anonym
 	cd anonym
 	sh setup.sh
 	cd ..
